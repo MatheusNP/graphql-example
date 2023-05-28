@@ -8,4 +8,5 @@ import "github.com/MatheusNP/graphql-example/internal/database"
 
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB   *database.Course
 }
